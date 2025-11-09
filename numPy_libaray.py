@@ -75,4 +75,26 @@ import numpy as np
 # print(arr.shape)
 # reshap_arr = arr.reshape(5,5)
 # print(reshap_arr)
+                                                        ## max & min ##
+# print(reshap_arr.max())
+# print(reshap_arr.min())
+                                                        ## argmax & argmin ##
+# print(reshap_arr.argmax())
+# print(reshap_arr.argmin())
+                                                        ## flatten ##
+# print(reshap_arr.flatten())
 
+                                                        ## vstack & hstack & concatenate ##
+# day1= np.array([[1,2],[3,4]])
+# day2= np.array([[11,2],[6,5]])
+# vstack_arr = np.vstack((day1, day2))
+# vstack_arr = np.hstack((day1, day2))
+# vstack_arr = np.concatenate((day1, day2), axis=0)
+# vstack_arr = np.concatenate((day1, day2), axis=1)
+# print(vstack_arr)
+                                                        ## dtype ##
+# print(day1.dtype)
+# print(day2.dtype)
+
+
+                                                 ##      indexing        ##
