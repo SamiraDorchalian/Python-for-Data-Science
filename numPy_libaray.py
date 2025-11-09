@@ -50,4 +50,29 @@ import numpy as np
 # random_int = np.random.randint(0, 100, 5)
 # print(random_int)
 
+                                                        ## math.inf - بینهایت " ∞ "
+
+# print(np.math.inf)
+
+                                                        ## math.nan - تهی " ∅ " 
+
+# print(np.math.nan)
+
+                                                ##      array method        ##
+
+
+                                                        ## shape ##
+# arr = np.array([1,2,3,4,5,])
+# print(arr.shape)
+                                                        ## reshape ##
+# arr = np.array([1,2,3,4,5,6,7,8,9,10])
+# print(arr.shape)
+# reshap_arr = arr.reshape(5,2)
+# print(reshap_arr)
+
+# arr = np.random.randint(0, 100, 25)
+# print(arr)
+# print(arr.shape)
+# reshap_arr = arr.reshape(5,5)
+# print(reshap_arr)
 
