@@ -85,8 +85,8 @@ import numpy as np
 # print(reshap_arr.flatten())
 
                                                         ## vstack & hstack & concatenate ##
-# day1= np.array([[1,2],[3,4]])
-# day2= np.array([[11,2],[6,5]])
+day1= np.array([[1,2],[3,4]])
+day2= np.array([[11,2],[6,5]])
 # vstack_arr = np.vstack((day1, day2))
 # vstack_arr = np.hstack((day1, day2))
 # vstack_arr = np.concatenate((day1, day2), axis=0)
@@ -98,3 +98,20 @@ import numpy as np
 
 
                                                  ##      indexing        ##
+# for i in day1:
+#     print(i)
+
+# print(day1[0])
+# print(day1[1])
+                                                        ## update_with_index ##
+# update_with_index = np.arange(0, 20, 2)
+# print(update_with_index)
+# update_with_index[0:4] = 1
+# print(update_with_index)
+                                                        ## copy ##
+# update_with_index = np.arange(0, 20, 2)
+# print(update_with_index)
+# update_with_copy= update_with_index.copy()[0:6]
+# print(update_with_copy)
+
+
