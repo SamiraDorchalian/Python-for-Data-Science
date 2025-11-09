@@ -114,4 +114,16 @@ day2= np.array([[11,2],[6,5]])
 # update_with_copy= update_with_index.copy()[0:6]
 # print(update_with_copy)
 
+                                                        ## transpose ##
+# mat = np.array([[1,2,3],[4,5,6],[7,8,9]])
+# print(mat)
+# print(mat.transpose())
+
+                                                        ## triu & tril ##
+# matrix_triu_and_tril = np.random.randint(0,100,25).reshape(5, 5)
+# print(matrix_triu_and_tril)
+# print(np.triu(matrix_triu_and_tril))
+# print(np.tril(matrix_triu_and_tril))
+
+
 
