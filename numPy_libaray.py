@@ -120,7 +120,7 @@ day2= np.array([[11,2],[6,5]])
 # print(mat.transpose())
 
                                                         ## triu & tril ##
-matrix_triu_and_tril = np.random.randint(0,100,25).reshape(5, 5)
+# matrix_triu_and_tril = np.random.randint(0,100,25).reshape(5, 5)
 # print(matrix_triu_and_tril)
 # print(np.triu(matrix_triu_and_tril))
 # print(np.tril(matrix_triu_and_tril))
