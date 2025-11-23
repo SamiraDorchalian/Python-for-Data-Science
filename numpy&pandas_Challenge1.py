@@ -39,3 +39,4 @@ arr_3 = np.random.randint(0, 10, 9).reshape(3,3)
 arr_4 = np.random.randint(0 , 10, 3)
 # print(arr_4)
 print(arr_3 + arr_4)
+#---------------------------------------------------
