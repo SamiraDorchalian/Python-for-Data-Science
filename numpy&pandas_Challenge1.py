@@ -6,7 +6,7 @@ arr_1 = np.random.rand(20)
 condition_arr_1 = np.where(arr_1 > 0.5, 1, 0)
 # print(condition_arr_1)
 # print(arr_1 * 10)
-#---------------------------------------------------
+#-----------------------------------------
 mat_1 = np.random.randint(1, 20, 9).reshape(3, 3)
 mat_2 = np.random.randint(1, 100, 9).reshape(3, 3)
 # print(mat_1)
@@ -35,8 +35,8 @@ condition_arr_2 = np.where(arr_2 >50, 50, arr_2)
 # print(condition_arr_2)
 #---------------------------------------------------
 arr_3 = np.random.randint(0, 10, 9).reshape(3,3)
-# print(arr_3)
+print(arr_3)
 arr_4 = np.random.randint(0 , 10, 3)
-# print(arr_4)
+print(arr_4)
 print(arr_3 + arr_4)
 #---------------------------------------------------
